@@ -90,7 +90,7 @@ class TransparentGIF(QWidget):
         # Optional: close after x seconds
         QTimer.singleShot(random_number*1000*2, self.close)
 
-gif_folder_path = r"C:\Users\onwei_on_cloud\Documents\exercise_gif"
+gif_folder_path = r"<Location of gif folder>"
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
